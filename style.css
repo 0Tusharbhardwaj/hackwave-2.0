@@ -713,4 +713,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 26px;
     height: 26px;
   }
+
+  .hero-image-card {
+    height: 350px;
+  }
+
+  .venue-card .map-placeholder {
+    height: 200px !important;
+  }
 }
