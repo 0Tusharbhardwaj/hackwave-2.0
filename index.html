@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HackWave 2.0 | Only the Sharpest can ride this HackWave</title>
+  <meta name="description" content="A 36-hour hackathon where ideas turn into real, impactful projects." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <!-- Framer Motion isn't strictly necessary for vanilla js, we'll use CSS animations -->
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo arch-font">HACKWAVE 2.0</a>
+      
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#faq">FAQs</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://hackwave2.devfolio.co/overview" target="_blank" rel="noopener noreferrer" class="neo-btn sm-hide">Apply Now</a>
+        <button class="hamburger" id="hamburger">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="close-menu" id="close-menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <a href="#home" class="mobile-link arch-font">Home</a>
+    <a href="#timeline" class="mobile-link arch-font">Timeline</a>
+    <a href="#sponsors" class="mobile-link arch-font">Sponsors</a>
+    <a href="#faq" class="mobile-link arch-font">FAQs</a>
+    <a href="https://hackwave2.devfolio.co/overview" target="_blank" rel="noopener noreferrer" class="neo-btn mt-4">Apply Now</a>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <!-- Floating Doodles -->
+    <div class="doodle doodle-1"></div>
+    <div class="doodle doodle-2"></div>
+    <div class="doodle doodle-3"></div>
+
+    <div class="container hero-container">
+      <div class="hero-content fade-in-up">
+        <div class="date-badge arch-font">3–5 May 2026</div>
+        <h1 class="hero-title arch-font">HACKWAVE 2.0</h1>
+        <h2 class="hero-tagline">"Only the Sharpest can ride this HackWave."</h2>
+        <p class="hero-desc">
+          We are back, stronger and bigger 🔥🔥🔥🔥🔥<br/>
+          A 36-hour hackathon where ideas turn into real, impactful projects.
+        </p>
+        
+        <div class="hero-info">
+          <div class="info-item neo-card">
+            <strong>Starts:</strong> 3 May, 10:00 AM
+          </div>
+          <div class="info-item neo-card">
+            <strong>Ends:</strong> 5 May, 10:00 AM
+          </div>
+          <div class="info-item neo-card venue-highlight bg-yellow">
+            <strong>Venue:</strong> GTBIT (Offline)
+          </div>
+        </div>
+
+        <a href="https://hackwave2.devfolio.co/overview" target="_blank" rel="noopener noreferrer" class="neo-btn primary-btn mt-4 arch-font pulse-anim">Apply with Devfolio</a>
+      </div>
+
+      <div class="hero-image-wrapper fade-in-up delay-2">
+        <div class="neo-card hero-image-card">
+          <!-- We will use the uploaded image from the folder here -->
+          <div class="hero-bg" style="background-image: url('Screenshot 2026-04-30 145225.png');"></div>
+          <div class="hero-image-overlay"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Stats / Banner Section -->
+  <div class="marquee bg-yellow border-top-bottom">
+    <div class="marquee-content arch-font">
+      <span>⚡ 36 HOURS OF HACKING</span>
+      <span>⭐ ₹1,00,000+ PRIZE POOL</span>
+      <span>🔥 OFFLINE AT GTBIT</span>
+      <span>⚡ 36 HOURS OF HACKING</span>
+      <span>⭐ ₹1,00,000+ PRIZE POOL</span>
+      <span>🔥 OFFLINE AT GTBIT</span>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title arch-font text-center mb-5 fade-in-up">Why join the HackWave?</h2>
+      
+      <div class="features-grid">
+        <div class="neo-card feature-card fade-in-up bg-white">
+          <div class="feature-icon">🤝</div>
+          <h3 class="arch-font">Network</h3>
+          <p>Connect with top developers, designers, and tech enthusiasts from all over the region.</p>
+        </div>
+        <div class="neo-card feature-card fade-in-up bg-white delay-1">
+          <div class="feature-icon">🚀</div>
+          <h3 class="arch-font">Build</h3>
+          <p>Turn your crazy ideas into real-world projects during the intense 36-hour sprint.</p>
+        </div>
+        <div class="neo-card feature-card fade-in-up bg-white delay-2">
+          <div class="feature-icon">💡</div>
+          <h3 class="arch-font">Learn</h3>
+          <p>Get invaluable mentorship from industry experts and take your skills to the next level.</p>
+        </div>
+        <div class="neo-card feature-card fade-in-up bg-white delay-3">
+          <div class="feature-icon">🎁</div>
+          <h3 class="arch-font">Win</h3>
+          <p>Exciting swags, goodies, and cash prizes for the most innovative solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="section bg-yellow" id="timeline">
+    <div class="container">
+      <h2 class="section-title arch-font text-center mb-5 fade-in-up">Hackathon Timeline</h2>
+      
+      <div class="timeline-container">
+        <!-- Round 1 -->
+        <div class="timeline-item fade-in-up">
+          <div class="timeline-dot"></div>
+          <div class="neo-card timeline-card bg-white">
+            <h3 class="arch-font text-xl">Round 1: Idea Submission (Online)</h3>
+            <p class="timeline-date">20 April 2026 — 28 April 2026</p>
+            <p>Submit your idea, problem statement, and approach. Shortlisting is based on innovation and feasibility.</p>
+          </div>
+        </div>
+        
+        <!-- Round 2 -->
+        <div class="timeline-item fade-in-up delay-1">
+          <div class="timeline-dot"></div>
+          <div class="neo-card timeline-card bg-black text-white timeline-inverted">
+            <h3 class="arch-font text-xl text-yellow">Round 2: Build Phase (Offline - Day 1)</h3>
+            <p class="timeline-date">3 May 2026 | 10:00 AM – 10:00 PM</p>
+            <p>Teams start building on campus. Mentorship sessions + checkpoints included.</p>
+          </div>
+        </div>
+        
+        <!-- Round 3 -->
+        <div class="timeline-item fade-in-up delay-2">
+          <div class="timeline-dot"></div>
+          <div class="neo-card timeline-card bg-white">
+            <h3 class="arch-font text-xl">Round 3: Final Presentation (Day 2)</h3>
+            <p class="timeline-date">5 May 2026 | 6:00 AM – 10:00 AM</p>
+            <p>Final demo + judging + winner announcements. The ultimate test of your hack.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prizes Section -->
+  <section class="section" id="prizes">
+    <div class="container">
+      <h2 class="section-title arch-font text-center mb-1 fade-in-up">Prizes</h2>
+      <p class="text-center mb-5 font-bold text-lg fade-in-up">Total Prize Pool: ₹1,00,000+</p>
+      
+      <div class="prizes-grid">
+        <!-- 2nd Place -->
+        <div class="neo-card prize-card secondary-prize fade-in-up delay-1 bg-white">
+          <div class="prize-icon">🥈</div>
+          <h3 class="arch-font text-2xl">2nd Place</h3>
+          <p class="prize-amount text-yellow bg-black inline-block px-3 py-1 neo-badge arch-font">₹10,000</p>
+          <p class="prize-desc">+ Awesome Goodies</p>
+        </div>
+        
+        <!-- 1st Place -->
+        <div class="neo-card prize-card primary-prize fade-in-up bg-yellow">
+          <div class="prize-icon">🏆</div>
+          <h3 class="arch-font text-3xl">Winner</h3>
+          <p class="prize-amount bg-white inline-block px-4 py-2 neo-badge arch-font text-xl">₹15,000</p>
+          <p class="prize-desc font-bold mt-2">+ Goodies</p>
+          <p class="prize-desc font-bold">+ Surprise Prize</p>
+        </div>
+        
+        <!-- 3rd Place -->
+        <div class="neo-card prize-card tertiary-prize fade-in-up delay-2 bg-white">
+          <div class="prize-icon">🥉</div>
+          <h3 class="arch-font text-2xl">3rd Place</h3>
+          <p class="prize-amount text-white bg-black inline-block px-3 py-1 neo-badge arch-font">₹5,000</p>
+          <p class="prize-desc">+ Awesome Goodies</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rules Section -->
+  <section class="section bg-black text-white" id="rules">
+    <div class="container">
+      <div class="rules-container">
+        <div class="rules-content fade-in-up">
+          <h2 class="section-title arch-font mb-4 text-yellow">The Hacker Rules</h2>
+          <ul class="rules-list">
+            <li><span class="rule-icon">👥</span> Team size: 2–4 members</li>
+            <li><span class="rule-icon">🚫</span> No plagiarism allowed</li>
+            <li><span class="rule-icon">💻</span> All code must be written during the hackathon</li>
+            <li><span class="rule-icon">🔓</span> Use of open-source resources is allowed</li>
+            <li><span class="rule-icon">⏰</span> Respect all deadlines strictly</li>
+            <li><span class="rule-icon">⚖️</span> Judges’ decision is final</li>
+            <li><span class="rule-icon">🤝</span> Maintain proper conduct on campus</li>
+          </ul>
+        </div>
+        <div class="rules-image fade-in-up delay-1">
+          <!-- Fun doodle or logo -->
+          <div class="neo-card bg-yellow text-black rotate-3">
+            <h3 class="arch-font text-2xl mb-2 text-center">Ready to Hack?</h3>
+            <img src="2041938450.png" alt="Hacker Doodle" class="img-fluid" onerror="this.src='https://via.placeholder.com/400x300/F7E054/171615?text=HackWave+Doodle'">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Venue Section -->
+  <section class="section" id="venue">
+    <div class="container text-center">
+      <h2 class="section-title arch-font mb-2 fade-in-up">Venue</h2>
+      <p class="text-xl mb-4 fade-in-up font-bold bg-yellow inline-block px-4 py-2 neo-badge">Offline Event</p>
+      
+      <div class="neo-card venue-card fade-in-up delay-1 bg-white mx-auto" style="max-width: 800px;">
+        <h3 class="arch-font text-2xl mb-3">Guru Tegh Bahadur Institute of Technology</h3>
+        <div class="map-placeholder border-black border-2 h-[300px] w-full bg-[#f0f0f0] flex items-center justify-center relative overflow-hidden" style="height: 300px; border: 3px solid #171615;">
+           <img src="Screenshot 2026-04-30 143057.png" alt="Campus Map" class="absolute inset-0 w-full h-full object-cover opacity-80" onerror="this.src='https://via.placeholder.com/800x300/e0e0e0/171615?text=Map+View'">
+           <div class="bg-black text-white px-4 py-2 neo-badge arch-font z-10 relative transform -rotate-2">GTBIT Campus</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section bg-yellow border-top-bottom" id="faq">
+    <div class="container">
+      <h2 class="section-title arch-font text-center mb-5 fade-in-up">FAQs</h2>
+      
+      <div class="faq-container mx-auto" style="max-width: 800px;">
+        <div class="neo-card faq-item fade-in-up bg-white mb-3 cursor-pointer">
+          <div class="faq-header flex justify-between items-center font-bold text-lg">
+            <span>Who can participate?</span>
+            <span class="faq-icon transition-transform">+</span>
+          </div>
+          <div class="faq-body hidden mt-2 text-gray-700">
+            Anyone with a passion for building! Whether you're a beginner or a seasoned pro, if you love tech and solving problems, you're welcome.
+          </div>
+        </div>
+        
+        <div class="neo-card faq-item fade-in-up delay-1 bg-white mb-3 cursor-pointer">
+          <div class="faq-header flex justify-between items-center font-bold text-lg">
+            <span>Is it free?</span>
+            <span class="faq-icon transition-transform">+</span>
+          </div>
+          <div class="faq-body hidden mt-2 text-gray-700">
+            Absolutely! Participation in HackWave 2.0 is completely free of charge.
+          </div>
+        </div>
+        
+        <div class="neo-card faq-item fade-in-up delay-2 bg-white mb-3 cursor-pointer">
+          <div class="faq-header flex justify-between items-center font-bold text-lg">
+            <span>Do I need prior experience?</span>
+            <span class="faq-icon transition-transform">+</span>
+          </div>
+          <div class="faq-body hidden mt-2 text-gray-700">
+            No prior hackathon experience is required. We will have mentors available to guide you throughout the event.
+          </div>
+        </div>
+        
+        <div class="neo-card faq-item fade-in-up delay-3 bg-white mb-3 cursor-pointer">
+          <div class="faq-header flex justify-between items-center font-bold text-lg">
+            <span>What should I bring?</span>
+            <span class="faq-icon transition-transform">+</span>
+          </div>
+          <div class="faq-body hidden mt-2 text-gray-700">
+            Bring your laptop, chargers, any necessary hardware, a valid ID card, and lots of enthusiasm!
+          </div>
+        </div>
+        
+        <div class="neo-card faq-item fade-in-up delay-4 bg-white mb-3 cursor-pointer">
+          <div class="faq-header flex justify-between items-center font-bold text-lg">
+            <span>Will accommodation be provided?</span>
+            <span class="faq-icon transition-transform">+</span>
+          </div>
+          <div class="faq-body hidden mt-2 text-gray-700">
+            Since it's an offline 36-hour event, designated resting areas will be provided on campus.
+          </div>
+        </div>
+        
+        <div class="neo-card faq-item fade-in-up delay-5 bg-white mb-3 cursor-pointer">
+          <div class="faq-header flex justify-between items-center font-bold text-lg">
+            <span>Can I participate solo?</span>
+            <span class="faq-icon transition-transform">+</span>
+          </div>
+          <div class="faq-body hidden mt-2 text-gray-700">
+            We highly encourage participating in a team of 2-4 members to build better projects, but solo participation is also allowed.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors Section -->
+  <section class="section" id="sponsors">
+    <div class="container text-center">
+      <h2 class="section-title arch-font mb-2 fade-in-up">Backed by amazing partners</h2>
+      <p class="mb-5 fade-in-up text-lg">Thank you to our sponsors for making HackWave 2.0 possible.</p>
+      
+      <div class="sponsors-grid fade-in-up delay-1 flex flex-wrap justify-center gap-4">
+        <!-- Local Sponsors -->
+        <div class="neo-card sponsor-card w-[200px] h-[100px] flex items-center justify-center bg-white m-2" style="width: 200px; height: 100px;">
+          <img src="278.webp" alt="Sponsor 1" class="max-h-full max-w-full object-contain p-2" onerror="this.src='https://raw.githubusercontent.com/devfolioco/brand-assets/main/Logo%20%2B%20Text%20-%20Dark/Devfolio%20-%20Dark.svg'">
+        </div>
+        <div class="neo-card sponsor-card w-[200px] h-[100px] flex items-center justify-center bg-white m-2" style="width: 200px; height: 100px;">
+          <img src="242932330.png" alt="Sponsor 2" class="max-h-full max-w-full object-contain p-2" onerror="this.src='https://raw.githubusercontent.com/devfolioco/brand-assets/main/Sponsors/Polygon/Logo%20%2B%20Text%20-%20Dark.svg'">
+        </div>
+        
+        <!-- Devfolio Brand Assets -->
+        <div class="neo-card sponsor-card w-[200px] h-[100px] flex items-center justify-center bg-white m-2" style="width: 200px; height: 100px;">
+          <img src="https://raw.githubusercontent.com/devfolioco/brand-assets/main/Logo%20%2B%20Text%20-%20Dark/Devfolio%20-%20Dark.svg" alt="Devfolio" class="max-h-full max-w-full object-contain p-2">
+        </div>
+        <div class="neo-card sponsor-card w-[200px] h-[100px] flex items-center justify-center bg-white m-2" style="width: 200px; height: 100px;">
+          <img src="https://raw.githubusercontent.com/devfolioco/brand-assets/main/Sponsors/Polygon/Logo%20%2B%20Text%20-%20Dark.svg" alt="Polygon" class="max-h-full max-w-full object-contain p-2">
+        </div>
+        <div class="neo-card sponsor-card w-[200px] h-[100px] flex items-center justify-center bg-white m-2" style="width: 200px; height: 100px;">
+          <img src="https://raw.githubusercontent.com/devfolioco/brand-assets/main/Sponsors/Solana/Solana-Dark.svg" alt="Solana" class="max-h-full max-w-full object-contain p-2">
+        </div>
+        <div class="neo-card sponsor-card w-[200px] h-[100px] flex items-center justify-center bg-white m-2" style="width: 200px; height: 100px;">
+          <img src="https://raw.githubusercontent.com/devfolioco/brand-assets/main/Sponsors/Filecoin/Filecoin-Dark.svg" alt="Filecoin" class="max-h-full max-w-full object-contain p-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-black text-white py-8 border-top-bottom border-yellow">
+    <div class="container text-center">
+      <h2 class="arch-font text-3xl mb-4 text-yellow">HACKWAVE 2.0</h2>
+      <p class="mb-4">Organized by GDG GTBIT</p>
+      <div class="footer-links flex justify-center gap-4 mb-4">
+        <a href="#" class="text-white hover:text-yellow transition-colors">Twitter</a>
+        <a href="#" class="text-white hover:text-yellow transition-colors">Instagram</a>
+        <a href="#" class="text-white hover:text-yellow transition-colors">LinkedIn</a>
+      </div>
+      <p class="text-sm opacity-80">© 2026 HackWave 2.0. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
