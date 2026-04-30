@@ -698,8 +698,40 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
   }
 
+  .section {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding-top: 100px;
+  }
+
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0px var(--primary), 3px 3px 0px var(--black);
+  }
+
+  .hero-tagline {
+    font-size: 1.2rem;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+
+  .hero-image-card {
+    height: 240px;
+  }
+
+  .marquee-content span {
+    font-size: 1.1rem;
+    margin: 0 20px;
   }
 
   .timeline-container::before {
@@ -708,6 +740,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .timeline-item {
     padding-left: 50px;
+    margin-bottom: 30px;
   }
 
   .timeline-dot {
@@ -716,11 +749,30 @@ h1, h2, h3, h4, h5, h6 {
     height: 26px;
   }
 
-  .hero-image-card {
-    height: 350px;
+  .neo-card {
+    padding: 16px;
+  }
+
+  .features-grid, .prizes-grid, .rules-container {
+    gap: 20px;
+  }
+
+  .prize-icon, .feature-icon {
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+  }
+
+  .primary-prize, .secondary-prize, .tertiary-prize {
+    min-height: auto;
   }
 
   .venue-card .map-placeholder {
     height: 200px !important;
+  }
+
+  .doodle {
+    width: 60px;
+    height: 60px;
   }
 }
